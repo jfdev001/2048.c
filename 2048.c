@@ -436,7 +436,8 @@ void signal_callback_handler(int signum)
 
 int main(int argc, char *argv[])
 {
-	uint8_t board[SIZE][SIZE];
+    // TODO: this was changed hehe
+	uint8_t board[SIZE][SIZE]
 	uint8_t scheme = 0;
 	uint32_t score = 0;
 	char c;
